@@ -1,0 +1,21 @@
+{
+  "name": "cld-imageset",
+  "version": "1.0.0",
+  "description": "Express Search Product Media From DAM",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manjunath kalburgi",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7"
+  }
+}
