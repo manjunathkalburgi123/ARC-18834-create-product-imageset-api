@@ -1,0 +1,26 @@
+{
+  "name": "Express Get Product imageset from Cloudinary",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Manjunath Kalburgi",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon node index.js",
+    "updateimageset":"nodemon node upload.js"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.2",
+    "cloudinary": "^2.5.0",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.6"
+  },
+  "devDependencies": {
+    "c8": "^10.0.0",
+    "gaxios": "^6.0.0",
+    "mocha": "^10.0.0",
+    "wait-port": "^1.0.4"
+  }
+}
